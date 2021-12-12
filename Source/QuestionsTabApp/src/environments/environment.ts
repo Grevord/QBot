@@ -1,12 +1,12 @@
 export const environment = {
     production: false,
     apiBaseUrl: "https://qbotdemotesting.azurewebsites.net/api/Request/",
-    selfUrl: "https://qbotdemotesting-questions.azurewebsites.net",
+    selfUrl: "https://diiageqbot-question.azurewebsites.net",
 
     authConfig: {
         instance: "https://login.microsoftonline.com/",
-        tenantId: "7520da05-6887-4d9d-9876-45bbf886ac78",
-        clientId: "62a0eea7-3c79-450e-8083-ab31364d45a3",
+        tenantId: "14bc5219-40ca-4d62-a8e4-7c97c1236349",
+        clientId: "87a9bc61-4a93-4968-91c6-40cc8a851876",
         redirectUri: "/app-silent-end",
         cacheLocation: "localStorage",
         navigateToLoginRequestUrl: false,
@@ -14,12 +14,12 @@ export const environment = {
         popUp: true,
         popUpUri: "/app-silent-start",
         popUpWidth: 600,
-        popUpHeight: 535
+        popUpHeight: 535,
     },
 
     // do not populate the following:
     upn: "",
     tid: "",
     gid: "",
-    cname: ""
+    cname: "",
 };
