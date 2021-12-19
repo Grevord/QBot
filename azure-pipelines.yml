@@ -20,3 +20,12 @@ steps:
     npm install
     ng build --prod
   displayName: 'npm install and build'
+
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'QBOTBind'
+    appType: 'webApp'
+    WebAppName: 'diiageqbot-dashboard'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
