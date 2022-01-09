@@ -18,6 +18,8 @@ steps:
 - script: |
     npm cache clean --force
     npm install -g @angular/cli
+    remove node_modules 
+    remove package-lock.json
     npm install --force
     ng build --prod
   displayName: 'npm install and build'
