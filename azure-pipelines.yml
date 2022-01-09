@@ -18,7 +18,7 @@ steps:
 - script: |
     npm cache clean --force
     npm install -g @angular/cli
-    npm install
+    npm install --force
     ng build --prod
   displayName: 'npm install and build'
 
