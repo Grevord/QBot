@@ -1,7 +1,7 @@
 export const environment = {
     production: false,
     apiBaseUrl: "https://diiageqbotjanvier.azurewebsites.net/api/Request/",
-    selfUrl: "https://diiageqbotjanvier-question.azurewebsites.net",
+    selfUrl: "https://diiageqbotjanvier-questions.azurewebsites.net",
 
 
     authConfig: {
