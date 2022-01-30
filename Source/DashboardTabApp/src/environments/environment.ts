@@ -1,11 +1,11 @@
 export const environment = {
     production: false,
-    apiBaseUrl: "https://diiageqbotjanvier.azurewebsites.net/api/Request/",
+    apiBaseUrl: "https://qbotdiiage.azurewebsites.net/api/Request/",
 
     authConfig: {
         instance: "https://login.microsoftonline.com/",
         tenantId: "fefe9af7-f330-429d-8087-f5e656f7a7ce",
-        clientId: "61397ba3-ae3c-4a1c-b592-b00e95e2dd32",
+        clientId: "2818063c-8a2c-4775-914e-37f8373df94d",
         redirectUri: "/app-silent-end",
         cacheLocation: "localStorage",
         navigateToLoginRequestUrl: false,
