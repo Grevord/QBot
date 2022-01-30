@@ -1,7 +1,7 @@
 export const environment = {
     production: false,
-    apiBaseUrl: "https://qbotdiiage.azurewebsites.net/api/Request/",
-    selfUrl: "https://qbotdiiage-questions.azurewebsites.net",
+    apiBaseUrl: "https://qbot-diiage.azurewebsites.net/api/Request/",
+    selfUrl: "https://qbot-diiage-questions.azurewebsites.net",
 
 
     authConfig: {
